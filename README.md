@@ -4,7 +4,7 @@ Demonstration for running Nightwatch tests on gulp-based project.
 **Instruction (Japanese)**  
 [Nightwatch.jsのE2Eテストをgulpベースのプロジェクトで行う](http://qiita.com/htanjo/items/478fe9af760e407ae8e6)
 
-## How to try
+## How to try the test suite
 
 Clone this repository.
 ```sh
@@ -16,7 +16,12 @@ Install dependencies.
 $ cd nightwatch-gulp-demo && npm install
 ```
 
-Run Nightwatch tests using gulp. (Install gulp globally `npm install gulp -g`, if you haven't.)
+Run Nightwatch tests using gulp.
+Install gulp globally `npm install gulp -g`, if you haven't.
 ```sh
 $ gulp test
 ```
+
+## License
+Copyright (c) 2015-2016 Hiroyuki Tanjo.
+Licensed under the [MIT License](LICENSE).
